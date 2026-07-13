@@ -17,4 +17,4 @@ export class CustomSelectCreateDialog extends SelectCreateDialog {
 }
 
 import { registry } from "@web/core/registry";
-registry.category("dialogs").add("custom_select_create", CustomSelectCreateDialog);
+registry.category("dialogs").add("ifruit_pos_custom_select_dialog", CustomSelectCreateDialog);
