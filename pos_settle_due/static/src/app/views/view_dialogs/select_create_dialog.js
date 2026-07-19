@@ -1,4 +1,5 @@
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
+import { registry } from "@web/core/registry";
 
 export class CustomSelectCreateDialog extends SelectCreateDialog {
     static props = {
@@ -16,5 +17,4 @@ export class CustomSelectCreateDialog extends SelectCreateDialog {
     }
 }
 
-import { registry } from "@web/core/registry";
 registry.category("dialogs").add("ifruit_pos_custom_select_dialog", CustomSelectCreateDialog);
